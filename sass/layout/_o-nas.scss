@@ -1,0 +1,49 @@
+/*O nas*/
+
+.o-nas-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primary-title-color;
+    width: 270px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.o-nas-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+    width: 270px;
+}
+
+.o-nas-img {
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.otstup-link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.o-nas.div-container{
+    padding-top: 93px;
+}
+
+.otstup-o-nas .link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.list-bg {
+    display: inline-block;
+    height: 120px;
+    width: 270px;
+    background-color: $secondary-white-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,84 @@
+.komanda-title,
+.komanda-pozition {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $primary-title-color;
+}
+
+.komanda-pozition {
+    font-weight: 400;
+    color: $primary-text-color;
+}
+
+.action {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: $primary-white-color;
+}
+
+.nasha-komanda {
+    background-color: #F5F4FA;;
+}
+
+.comanda-block {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.social-link {
+    margin-top: 16px;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.komanda-title {
+    margin-bottom: 10px;
+}
+
+.team {
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.social-icon {
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.social-link-item:hover .social-icon,
+.social-icon:focus  {
+    background-color: $accent-color;
+}
+
+.social-link-item:hover .icon,
+.social-icon:focus .icon {
+    fill: $primary-white-color;
+} 
+
+.icon {
+    fill: #AFB1B8;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nasha-komanda .link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.social-link-item:not(:last-child) {
+    margin-right: 10px;
+}

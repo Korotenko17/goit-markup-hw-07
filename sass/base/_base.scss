@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background: #ffffff;
+}
+
+.list {
+    list-style: none;
+}
+ 
+.link {
+     text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h5 {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+img {
+    display: block;
+}
